@@ -1,0 +1,25 @@
+{
+  "name": "weather-app-server",
+  "version": "1.0.0",
+  "description": "Server for weather app",
+  "main": "server.ts",
+  "scripts": {
+    "start": "yarn exec ts-node ."
+  },
+  "repository": "https://github.com/Crinax/weather-app.git",
+  "author": "Crinax <agreedeth@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.7",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12"
+  }
+}
