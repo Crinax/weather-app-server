@@ -24,4 +24,8 @@ app.use('/api/:version/:method', async (req, res) => {
   }
 });
 
+app.use('*', (req, res) => {
+  res.send({ code: 404, message: 'Error 404: Not found' });
+})
+
 app.listen(port);
